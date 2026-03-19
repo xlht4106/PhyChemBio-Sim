@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026年度理化生实验考试 - 登录</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1 class="login-title">2026年度理化生实验考试</h1>
+        <p class="login-subtitle">欢迎参加考试</p>
+        
+        <div class="login-form">
+            <div class="form-group">
+                <label for="registrationNumber" class="center-label">报名号</label>
+                <input
+                    type="text"
+                    id="registrationNumber"
+                    placeholder="请输入纯数字报名号"
+                    maxlength="20"
+                    pattern="[0-9]*"
+                    class="center-input"
+                >
+                <span id="registrationError" class="error-message"></span>
+            </div>
+            
+            <button id="startBtn" class="start-btn">开始考试</button>
+        </div>
+        
+        <div id="examTypeSection" class="exam-type-section">
+            <p class="exam-type-title">请选择考试类型</p>
+            <div class="exam-type-buttons">
+                <button class="exam-type-btn" data-type="practice">
+                    <span class="btn-icon">📚</span>
+                    <span class="btn-text">训练</span>
+                </button>
+                <button class="exam-type-btn" data-type="mock">
+                    <span class="btn-icon">⏱️</span>
+                    <span class="btn-text">模拟考试</span>
+                </button>
+                <button class="exam-type-btn" data-type="district" disabled>
+                    <span class="btn-icon">🏫</span>
+                    <span class="btn-text">区统一模拟考试</span>
+                    <span class="btn-badge">即将推出</span>
+                </button>
+                <button class="exam-type-btn" data-type="city" disabled>
+                    <span class="btn-icon">🌆</span>
+                    <span class="btn-text">市统一考试</span>
+                    <span class="btn-badge">即将推出</span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="page-footer">
+            <p class="footer-dev">开发：xlht2010</p>
+            <button id="leaderboardBtn" class="footer-leaderboard-btn">
+                <span class="btn-icon">🏆</span>
+                <span class="btn-text">排行榜</span>
+            </button>
+        </div>
+    </div>
+    
+    <script src="static/login.js"></script>
+</body>
+</html>

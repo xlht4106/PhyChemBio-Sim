@@ -1,0 +1,19 @@
+{
+  "name": "phychembio-sim-workers",
+  "version": "1.0.0",
+  "description": "模拟考试抽题系统 - Cloudflare Workers API",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:init": "wrangler d1 execute phychembio-sim --file=../data/init-db.sql"
+  },
+  "dependencies": {
+    "hono": "^4.12.5"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.0.0",
+    "typescript": "^5.0.0",
+    "wrangler": "^3.0.0"
+  }
+}

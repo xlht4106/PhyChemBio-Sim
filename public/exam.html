@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026年度理化生实验考试 - 答题</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="exam-container">
+        <!-- 顶部倒计时区域 -->
+        <header class="exam-header">
+            <div class="timer-display" id="timerDisplay">
+                <span class="timer-icon">⏱️</span>
+                <span id="timerText">20:00</span>
+            </div>
+        </header>
+
+        <!-- 主体内容区域 -->
+        <div class="exam-body">
+            <!-- 左侧边栏 -->
+            <aside class="exam-sidebar">
+                <!-- 用户信息区域 -->
+                <div class="user-info">
+                    <div class="user-avatar" id="userAvatar" title="点击上传头像">
+                        <div class="user-avatar-placeholder" id="avatarPlaceholder">👤</div>
+                        <img id="avatarImage" src="" alt="头像" style="display: none;">
+                    </div>
+                    <input type="file" id="avatarUpload" accept="image/*" style="display: none;">
+                    <div class="user-details">
+                        <input 
+                            type="text" 
+                            class="user-name-input" 
+                            id="userNameInput" 
+                            value="考生"
+                            placeholder="点击编辑姓名"
+                        >
+                        <div class="user-reg-number" id="userRegNumber">报名号：---</div>
+                    </div>
+                </div>
+
+                <!-- 题号列表区域 -->
+                <nav class="question-nav">
+                    <h3 class="question-nav-title">答题卡</h3>
+                    <div class="question-grid" id="questionGrid">
+                        <!-- 题号按钮由 JavaScript 动态生成 -->
+                    </div>
+                </nav>
+
+                <!-- 须知区域 -->
+                <div class="notice-section">
+                    <h3 class="notice-title">考试须知</h3>
+                    <div class="notice-content">
+                        <p>1. 本试卷共 30 道题，每题 1 分，满分 30 分。</p>
+                        <p>2. 模拟考试时间为 20 分钟，剩余 5 分钟方可交卷。</p>
+                        <p>3. 训练模式无时间限制。</p>
+                        <p>4. 请诚信考试，独立完成。</p>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- 主内容区域 -->
+            <main class="exam-main">
+                <!-- 题目内容区域 -->
+                <div class="question-content" id="questionContent">
+                    <div class="question-card">
+                        <div class="question-header">
+                            <div class="question-index" id="questionIndex">1</div>
+                            <div class="question-text" id="questionText">加载中...</div>
+                        </div>
+                        <img class="question-image" id="questionImage" src="" alt="题目图片">
+                        <div class="options-list" id="optionsList">
+                            <!-- 选项由 JavaScript 动态生成 -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 底部操作栏 -->
+                <footer class="exam-footer">
+                    <button class="nav-btn" id="prevBtn" disabled>
+                        <span>⬅️</span>
+                        <span>上一题</span>
+                    </button>
+                    <div class="question-progress" id="questionProgress">
+                        <span id="currentQuestionNum">1</span> / <span id="totalQuestions">30</span>
+                    </div>
+                    <button class="nav-btn" id="nextBtn">
+                        <span>下一题</span>
+                        <span>➡️</span>
+                    </button>
+                    <button class="submit-btn" id="submitBtn" disabled>
+                        交卷
+                    </button>
+                </footer>
+            </main>
+        </div>
+    </div>
+
+    <!-- 交卷确认对话框 -->
+    <dialog id="submitDialog" class="submit-dialog">
+        <div class="dialog-content">
+            <h3>确认交卷？</h3>
+            <p>您还有 <span id="unansweredCount">0</span> 道题未作答。</p>
+            <div class="dialog-actions">
+                <button class="dialog-cancel" id="dialogCancel">继续答题</button>
+                <button class="dialog-confirm" id="dialogConfirm">确认交卷</button>
+            </div>
+        </div>
+    </dialog>
+
+    <script src="static/exam.js"></script>
+</body>
+</html>

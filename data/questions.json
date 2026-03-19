@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question_text": "下列哪种物质属于氧化物？",
+    "option_a": "H₂O",
+    "option_b": "NaCl",
+    "option_c": "O₂",
+    "option_d": "H₂SO₄",
+    "correct_answer": "A"
+  },
+  {
+    "id": 2,
+    "question_text": "光合作用的主要产物是什么？",
+    "option_a": "二氧化碳和水",
+    "option_b": "葡萄糖和氧气",
+    "option_c": "淀粉和氮气",
+    "option_d": "蛋白质和水",
+    "correct_answer": "B"
+  },
+  {
+    "id": 3,
+    "question_text": "下列哪个器官是人体的主要解毒器官？",
+    "option_a": "心脏",
+    "option_b": "肺",
+    "option_c": "肝脏",
+    "option_d": "肾脏",
+    "correct_answer": "C"
+  },
+  {
+    "id": 4,
+    "question_text": "水的沸点是多少摄氏度（标准大气压下）？",
+    "option_a": "90°C",
+    "option_b": "100°C",
+    "option_c": "110°C",
+    "option_d": "120°C",
+    "correct_answer": "B"
+  },
+  {
+    "id": 5,
+    "question_text": "下列哪种元素是金属元素？",
+    "option_a": "氧",
+    "option_b": "碳",
+    "option_c": "铁",
+    "option_d": "氮",
+    "correct_answer": "C"
+  },
+  {
+    "id": 6,
+    "question_text": "人体有多少对染色体？",
+    "option_a": "21 对",
+    "option_b": "22 对",
+    "option_c": "23 对",
+    "option_d": "24 对",
+    "correct_answer": "C"
+  },
+  {
+    "id": 7,
+    "question_text": "下列哪种气体是温室气体？",
+    "option_a": "氧气",
+    "option_b": "氮气",
+    "option_c": "二氧化碳",
+    "option_d": "氢气",
+    "correct_answer": "C"
+  },
+  {
+    "id": 8,
+    "question_text": "DNA 的全称是什么？",
+    "option_a": "核糖核酸",
+    "option_b": "脱氧核糖核酸",
+    "option_c": "氨基酸",
+    "option_d": "蛋白质",
+    "correct_answer": "B"
+  },
+  {
+    "id": 9,
+    "question_text": "下列哪种力是接触力？",
+    "option_a": "重力",
+    "option_b": "磁力",
+    "option_c": "摩擦力",
+    "option_d": "静电力",
+    "correct_answer": "C"
+  },
+  {
+    "id": 10,
+    "question_text": "pH 值为 7 的溶液呈什么性？",
+    "option_a": "酸性",
+    "option_b": "碱性",
+    "option_c": "中性",
+    "option_d": "无法判断",
+    "correct_answer": "C"
+  },
+  {
+    "id": 11,
+    "question_text": "下列哪种细胞器是细胞的'动力工厂'？",
+    "option_a": "细胞核",
+    "option_b": "线粒体",
+    "option_c": "内质网",
+    "option_d": "高尔基体",
+    "correct_answer": "B"
+  },
+  {
+    "id": 12,
+    "question_text": "牛顿第一定律又称为？",
+    "option_a": "加速度定律",
+    "option_b": "作用与反作用定律",
+    "option_c": "惯性定律",
+    "option_d": "万有引力定律",
+    "correct_answer": "C"
+  },
+  {
+    "id": 13,
+    "question_text": "下列哪种物质是强酸？",
+    "option_a": "醋酸",
+    "option_b": "盐酸",
+    "option_c": "碳酸",
+    "option_d": "柠檬酸",
+    "correct_answer": "B"
+  },
+  {
+    "id": 14,
+    "question_text": "人体最大的器官是什么？",
+    "option_a": "肝脏",
+    "option_b": "大脑",
+    "option_c": "皮肤",
+    "option_d": "心脏",
+    "correct_answer": "C"
+  },
+  {
+    "id": 15,
+    "question_text": "下列哪种波是电磁波？",
+    "option_a": "声波",
+    "option_b": "水波",
+    "option_c": "光波",
+    "option_d": "地震波",
+    "correct_answer": "C"
+  },
+  {
+    "id": 16,
+    "question_text": "化学式 CO₂表示什么物质？",
+    "option_a": "一氧化碳",
+    "option_b": "二氧化碳",
+    "option_c": "碳酸",
+    "option_d": "氧气",
+    "correct_answer": "B"
+  },
+  {
+    "id": 17,
+    "question_text": "下列哪种维生素是水溶性的？",
+    "option_a": "维生素 A",
+    "option_b": "维生素 D",
+    "option_c": "维生素 C",
+    "option_d": "维生素 E",
+    "correct_answer": "C"
+  },
+  {
+    "id": 18,
+    "question_text": "声音在下列哪种介质中传播最快？",
+    "option_a": "空气",
+    "option_b": "水",
+    "option_c": "钢铁",
+    "option_d": "真空",
+    "correct_answer": "C"
+  },
+  {
+    "id": 19,
+    "question_text": "下列哪种反应是放热反应？",
+    "option_a": "冰融化",
+    "option_b": "水蒸发",
+    "option_c": "燃烧",
+    "option_d": "盐溶解",
+    "correct_answer": "C"
+  },
+  {
+    "id": 20,
+    "question_text": "人体血液的 pH 值约为？",
+    "option_a": "6.8",
+    "option_b": "7.0",
+    "option_c": "7.4",
+    "option_d": "8.0",
+    "correct_answer": "C"
+  },
+  {
+    "id": 21,
+    "question_text": "下列哪种动物是哺乳动物？",
+    "option_a": "青蛙",
+    "option_b": "鳄鱼",
+    "option_c": "蝙蝠",
+    "option_d": "企鹅",
+    "correct_answer": "C"
+  },
+  {
+    "id": 22,
+    "question_text": "电流的单位是什么？",
+    "option_a": "伏特",
+    "option_b": "安培",
+    "option_c": "欧姆",
+    "option_d": "瓦特",
+    "correct_answer": "B"
+  },
+  {
+    "id": 23,
+    "question_text": "下列哪种物质是有机物？",
+    "option_a": "水",
+    "option_b": "二氧化碳",
+    "option_c": "葡萄糖",
+    "option_d": "食盐",
+    "correct_answer": "C"
+  },
+  {
+    "id": 24,
+    "question_text": "植物进行光合作用的主要场所是？",
+    "option_a": "线粒体",
+    "option_b": "叶绿体",
+    "option_c": "细胞核",
+    "option_d": "液泡",
+    "correct_answer": "B"
+  },
+  {
+    "id": 25,
+    "question_text": "下列哪种现象属于物理变化？",
+    "option_a": "铁生锈",
+    "option_b": "木材燃烧",
+    "option_c": "水结冰",
+    "option_d": "食物腐烂",
+    "correct_answer": "C"
+  },
+  {
+    "id": 26,
+    "question_text": "人体中含量最多的元素是？",
+    "option_a": "碳",
+    "option_b": "氢",
+    "option_c": "氧",
+    "option_d": "氮",
+    "correct_answer": "C"
+  },
+  {
+    "id": 27,
+    "question_text": "下列哪种力是保守力？",
+    "option_a": "摩擦力",
+    "option_b": "空气阻力",
+    "option_c": "重力",
+    "option_d": "粘滞力",
+    "correct_answer": "C"
+  },
+  {
+    "id": 28,
+    "question_text": "原子核由什么组成？",
+    "option_a": "电子和质子",
+    "option_b": "质子和中子",
+    "option_c": "电子和中子",
+    "option_d": "只有质子",
+    "correct_answer": "B"
+  },
+  {
+    "id": 29,
+    "question_text": "下列哪种激素由胰岛分泌？",
+    "option_a": "甲状腺素",
+    "option_b": "肾上腺素",
+    "option_c": "胰岛素",
+    "option_d": "生长激素",
+    "correct_answer": "C"
+  },
+  {
+    "id": 30,
+    "question_text": "光的折射现象是由于光在不同介质中什么不同造成的？",
+    "option_a": "频率",
+    "option_b": "波长",
+    "option_c": "传播速度",
+    "option_d": "振幅",
+    "correct_answer": "C"
+  },
+  {
+    "id": 31,
+    "question_text": "下列哪种物质是电解质？",
+    "option_a": "蔗糖",
+    "option_b": "酒精",
+    "option_c": "氯化钠",
+    "option_d": "汽油",
+    "correct_answer": "C"
+  },
+  {
+    "id": 32,
+    "question_text": "人体呼吸系统的主要器官是？",
+    "option_a": "心脏",
+    "option_b": "肺",
+    "option_c": "肝脏",
+    "option_d": "胃",
+    "correct_answer": "B"
+  },
+  {
+    "id": 33,
+    "question_text": "下列哪种能源是可再生能源？",
+    "option_a": "煤炭",
+    "option_b": "石油",
+    "option_c": "太阳能",
+    "option_d": "天然气",
+    "correct_answer": "C"
+  },
+  {
+    "id": 34,
+    "question_text": "分子是保持物质什么性质的最小粒子？",
+    "option_a": "物理性质",
+    "option_b": "化学性质",
+    "option_c": "颜色",
+    "option_d": "状态",
+    "correct_answer": "B"
+  },
+  {
+    "id": 35,
+    "question_text": "下列哪种疾病是由病毒引起的？",
+    "option_a": "肺炎",
+    "option_b": "流感",
+    "option_c": "痢疾",
+    "option_d": "结核病",
+    "correct_answer": "B"
+  },
+  {
+    "id": 36,
+    "question_text": "电阻的单位是什么？",
+    "option_a": "伏特",
+    "option_b": "安培",
+    "option_c": "欧姆",
+    "option_d": "瓦特",
+    "correct_answer": "C"
+  },
+  {
+    "id": 37,
+    "question_text": "下列哪种物质遇碘会变蓝？",
+    "option_a": "葡萄糖",
+    "option_b": "淀粉",
+    "option_c": "蛋白质",
+    "option_d": "脂肪",
+    "correct_answer": "B"
+  },
+  {
+    "id": 38,
+    "question_text": "地球自转一周需要多长时间？",
+    "option_a": "12 小时",
+    "option_b": "24 小时",
+    "option_c": "365 天",
+    "option_d": "30 天",
+    "correct_answer": "B"
+  },
+  {
+    "id": 39,
+    "question_text": "下列哪种金属在常温下是液态？",
+    "option_a": "铁",
+    "option_b": "铜",
+    "option_c": "汞",
+    "option_d": "铝",
+    "correct_answer": "C"
+  },
+  {
+    "id": 40,
+    "question_text": "人体消化系统中主要的消化器官是？",
+    "option_a": "口腔",
+    "option_b": "胃",
+    "option_c": "小肠",
+    "option_d": "大肠",
+    "correct_answer": "C"
+  }
+]

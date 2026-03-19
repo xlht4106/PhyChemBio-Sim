@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>排行榜 - 2026年度理化生实验考试</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="leaderboard-container">
+        <div class="leaderboard-header">
+            <h1 class="leaderboard-title">🏆 排行榜</h1>
+            <p class="leaderboard-subtitle">查看各考试模式下的成绩排名</p>
+        </div>
+
+        <!-- 考试模式选择 -->
+        <div class="mode-selector">
+            <button class="mode-btn active" data-mode="mock">
+                <span class="btn-icon">⏱️</span>
+                <span class="btn-text">模拟考试</span>
+            </button>
+            <button class="mode-btn" data-mode="practice">
+                <span class="btn-icon">📚</span>
+                <span class="btn-text">训练</span>
+            </button>
+        </div>
+
+        <!-- 加载状态 -->
+        <div id="loadingState" class="loading-state">
+            <div class="loading-spinner"></div>
+            <p class="loading-text">加载排行榜中...</p>
+        </div>
+
+        <!-- 错误状态 -->
+        <div id="errorState" class="error-state" style="display: none;">
+            <p class="error-text">加载失败，请稍后重试</p>
+            <button id="retryBtn" class="retry-btn">重试</button>
+        </div>
+
+        <!-- 排行榜内容 -->
+        <div id="leaderboardContent" class="leaderboard-content" style="display: none;">
+            <!-- 前三名展示 -->
+            <div class="top-three">
+                <div class="top-rank top-rank-1">
+                    <div class="top-avatar">
+                        <span class="top-rank-number">1</span>
+                    </div>
+                    <div class="top-info">
+                        <p class="top-name">张三</p>
+                        <p class="top-score">30分</p>
+                    </div>
+                </div>
+                <div class="top-rank top-rank-2">
+                    <div class="top-avatar">
+                        <span class="top-rank-number">2</span>
+                    </div>
+                    <div class="top-info">
+                        <p class="top-name">李四</p>
+                        <p class="top-score">29分</p>
+                    </div>
+                </div>
+                <div class="top-rank top-rank-3">
+                    <div class="top-avatar">
+                        <span class="top-rank-number">3</span>
+                    </div>
+                    <div class="top-info">
+                        <p class="top-name">王五</p>
+                        <p class="top-score">28分</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 排行榜列表 -->
+            <div class="leaderboard-list">
+                <div class="leaderboard-list-header">
+                    <span class="list-header-rank">排名</span>
+                    <span class="list-header-name">姓名</span>
+                    <span class="list-header-score">分数</span>
+                    <span class="list-header-time">时间</span>
+                </div>
+                <div id="leaderboardItems" class="leaderboard-items">
+                    <!-- 动态生成 -->
+                </div>
+            </div>
+        </div>
+
+        <!-- 空状态 -->
+        <div id="emptyState" class="empty-state" style="display: none;">
+            <p class="empty-text">暂无数据</p>
+        </div>
+
+        <!-- 返回按钮 -->
+        <div class="back-section">
+            <button id="backBtn" class="back-btn">
+                <span class="back-icon">←</span>
+                <span class="back-text">返回首页</span>
+            </button>
+        </div>
+
+        <!-- 页脚 -->
+        <div class="page-footer">
+            <p class="footer-dev">开发：xlht2010</p>
+        </div>
+    </div>
+
+    <script src="static/leaderboard.js"></script>
+</body>
+</html>

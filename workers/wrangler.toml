@@ -1,0 +1,20 @@
+name = "phychembio-sim-api"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+# D1 数据库绑定（暂时注释掉，用于本地测试）
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "phychembio-sim"
+# # database_id 在创建数据库后填写
+# # database_id = "YOUR_DATABASE_ID"
+
+# 环境变量
+[vars]
+CORS_ORIGIN = "*"
+ENVIRONMENT = "development"
+
+# 开发环境配置
+[dev]
+port = 8787
+local_protocol = "http"

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026年度理化生实验考试 - 结果</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="result-container">
+        <div class="result-card">
+            <div class="result-header">
+                <h1 class="result-title" id="resultTitle">考试完成</h1>
+                
+                <div class="result-score">
+                    <div>
+                        <div class="score-value" id="scoreValue">--</div>
+                        <div class="score-total" id="scoreTotal">/ 30</div>
+                    </div>
+                </div>
+                
+                <p class="result-mode" id="resultMode">模拟考试</p>
+            </div>
+
+            <!-- 模拟考试：上传排行榜选项 -->
+            <div id="uploadSection" class="upload-leaderboard-section" style="display: none;">
+                <h3 class="upload-leaderboard-title">是否上传成绩到排行榜？</h3>
+                <div class="upload-leaderboard-actions">
+                    <button class="result-btn result-btn-secondary" id="uploadYesBtn">上传</button>
+                    <button class="result-btn result-btn-secondary" id="uploadNoBtn">不上传</button>
+                </div>
+            </div>
+
+            <!-- 训练模式：错题列表 -->
+            <div id="wrongQuestionsSection" class="wrong-questions" style="display: none;">
+                <h2 class="wrong-questions-title">错题解析</h2>
+                <div id="wrongQuestionsList">
+                    <!-- 错题列表由 JavaScript 动态生成 -->
+                </div>
+            </div>
+
+            <!-- 操作按钮 -->
+            <div class="result-actions">
+                <button class="result-btn result-btn-primary" id="reviewBtn" style="display: none;">
+                    查看答题情况
+                </button>
+                <button class="result-btn result-btn-primary" id="restartBtn">
+                    重新练习
+                </button>
+                <button class="result-btn result-btn-secondary" id="homeBtn">
+                    返回首页
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="static/result.js"></script>
+</body>
+</html>
